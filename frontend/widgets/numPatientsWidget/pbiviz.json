@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "numPatientsWidget",
+        "displayName": "NumPatientsWidget",
+        "guid": "numPatientsWidget37D301CB0D964905B32065C8F2236900",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Ett verktyg för en intelligent akutmottagning.",
+        "supportUrl": "https://github.com/Tbobbe/EENX15",
+        "gitHubUrl": "https://github.com/Tbobbe/EENX15"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Alexander Örnbratt",
+        "email": "ornbratt@student.chalmers.se"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

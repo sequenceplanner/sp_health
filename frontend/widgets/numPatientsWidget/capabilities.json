@@ -1,0 +1,19 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Result",
+            "name": "result",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                { "result": { "max": 1 } }
+            ],
+            "single": {
+                "role": "measure"
+            }
+        }
+    ]
+}

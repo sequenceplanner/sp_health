@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "waitingRoom",
+        "displayName": "waitingRoom",
+        "guid": "HospitalWaitingRoom",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "This widget is for VGR emergency waiting rooms",
+        "supportUrl": "google.com",
+        "gitHubUrl": "https://github.com/Tbobbe/EENX15"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Carolina Larsson",
+        "email": "carolinalarsson97@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/waiting-hall(8).png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

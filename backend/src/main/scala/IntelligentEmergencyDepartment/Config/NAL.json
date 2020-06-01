@@ -1,0 +1,1137 @@
+{
+    "rooms" : [
+        {
+            "name":"1",
+            "variations" : ["inf1","bi1", "gi1", "bin1", "gin1", "if1", "in1","binf1"],
+            "category"  : ["nakme1"],
+            "posX": 0,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory": false
+        }
+        ,
+        {
+            "name":"2",
+            "variations" : ["inf2","bi2", "gi2", "bin2", "gin2", "if2", "in2","binf2"],
+            "category"  : ["nakme1"],
+            "posX": 0,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+            
+        }
+        ,
+        {
+            "name":"3",
+            "variations" : ["inf3","bi3", "gi3", "bin3", "gin3", "if3", "in3","binf3"],
+            "category"  : ["nakme1"],
+            "posX": 0,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"4",
+            "variations" : ["inf4","bi4", "gi4", "bin4", "gin4", "if4", "in4","binf4"],
+            "category"  : ["nakme1"],
+            "posX": 0,
+            "posY": 6,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+    
+        ,
+        {
+            "name":"5",
+            "variations" : ["t5","bt5","gt5","tr5"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"6",
+            "variations" : ["t6","bt6","gt6","tr6"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"7",
+            "variations" : ["t7","bt7","gt7","tr7"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"8",
+            "variations" : ["t8","bt8","gt8","tr8"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 6,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"9",
+            "variations" : ["t9","bt9","gt9","tr9"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 8,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+    
+        ,
+        {
+            "name":"10",
+            "variations" : ["g10"],
+            "category"  : ["nakme3"],
+            "posX": 6,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"11",
+            "variations" : ["g11"],
+            "category"  : ["nakme3"],
+            "posX": 6,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"12",
+            "variations" : ["g12"],
+            "category"  : ["nakme3"],
+            "posX": 6,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"13",
+            "variations" : ["g13"],
+            "category"  : ["nakme3"],
+            "posX": 8,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"14",
+            "variations" : ["g14"],
+            "category"  : ["nakme3"],
+            "posX": 10,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"15",
+            "variations" : ["g15"],
+            "category"  : ["nakme3"],
+            "posX": 12,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"16",
+            "variations" : ["g16"],
+            "category"  : ["nakme3"],
+            "posX": 14,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"17",
+            "variations" : ["g17"],
+            "category"  : ["nakme3"],
+            "posX": 14,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"18",
+            "variations" : ["g18"],
+            "category"  : ["nakme3"],
+            "posX": 14,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"19",
+            "variations" : ["b19"],
+            "category"  : ["nakme2"],
+            "posX": 14,
+            "posY": 7,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+
+        }
+        ,
+        {
+            "name":"20",
+            "variations" : ["b20"],
+            "category"  : ["nakme2"],
+            "posX": 14,
+            "posY": 9,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+            
+        }
+        ,
+        {
+            "name":"21",
+            "variations" : ["b21"],
+            "category"  : ["nakme2"],
+            "posX": 14,
+            "posY": 11,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"22",
+            "variations" : ["b22"],
+            "category"  : ["nakme2"],
+            "posX": 12,
+            "posY": 11,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"23",
+            "variations" : ["b23"],
+            "category"  : ["nakme2"],
+            "posX": 10,
+            "posY": 11,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"24 B",
+            "variations" : ["b24b","24b","24"],
+            "category"  : ["nakme2"],
+            "posX": 9,
+            "posY": 11,
+            "width": 1,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"24 A",
+            "variations" : ["b24a","24a","24"],
+            "category"  : ["nakme2"],
+            "posX": 8,
+            "posY": 11,
+            "width": 1,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"25",
+            "variations" : ["b25"],
+            "category"  : ["nakme2"],
+            "posX": 6,
+            "posY": 11,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"26",
+            "variations" : ["b26"],
+            "category"  : ["nakme2"],
+            "posX": 6,
+            "posY": 9,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"27",
+            "variations" : ["b27"],
+            "category"  : ["nakme2"],
+            "posX": 6,
+            "posY": 7,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"30",
+            "variations" : ["30"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 8,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"31",
+            "variations" : ["31"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 6,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"32",
+            "variations" : ["32"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"33",
+            "variations" : ["33"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"34",
+            "variations" : ["34"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,   
+        {
+            "name":"35",
+            "variations" : ["35"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 19,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"46",
+            "variations" : ["46"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 17,
+            "posY": 10,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"36",
+            "variations" : ["36"],
+            "category"  : ["nakor"],
+            "posX": 22,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        
+        {
+            "name":"37",
+            "variations" : ["37"],
+            "category"  : ["nakor"],
+            "posX": 24,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"38",
+            "variations" : ["38"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,   {
+            "name":"39",
+            "variations" : ["39"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,   {
+            "name":"40",
+            "variations" : ["40"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"41",
+            "variations" : ["41"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 6,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"42",
+            "variations" : ["42"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 8,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"43",
+            "variations" : ["43"],
+            "category"  : ["nakor"],
+            "posX": 26,
+            "posY": 10,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+    
+        {
+            "name":"44",
+            "variations" : ["44"],
+            "category"  : ["nakor"],
+            "posX": 24,
+            "posY": 10,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"45",
+            "variations" : ["45"],
+            "category"  : ["nakor"],
+            "posX": 22,
+            "posY": 10,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"47",
+            "variations" : ["47"],
+            "category"  : ["nakor"],
+            "posX": 29,
+            "posY": 0,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"48",
+            "variations" : ["48"],
+            "category"  : ["nakor"],
+            "posX": 29,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"50",
+            "variations" : ["50"],
+            "category"  : ["nakki"],
+            "posX": 17,
+            "posY": 21,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"51",
+            "variations" : ["51"],
+            "category"  : ["nakki"],
+            "posX": 17,
+            "posY": 19,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ,
+        {
+            "name":"52",
+            "variations" : ["52"],
+            "category"  : ["nakki"],
+            "posX": 17,
+            "posY": 17,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"53",
+            "variations" : ["53"],
+            "category"  : ["nakki"],
+            "posX": 17,
+            "posY": 15,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"54",
+            "variations" : ["54"],
+            "category"  : ["nakki"],
+            "posX": 17,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"55",
+            "variations" : ["55"],
+            "category"  : ["nakki"],
+            "posX": 19,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"56",
+            "variations" : ["56"],
+            "category"  : ["nakki"],
+            "posX": 21,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"57",
+            "variations" : ["57"],
+            "category"  : ["nakki"],
+            "posX": 23,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"58",
+            "variations" : ["58"],
+            "category"  : ["nakki"],
+            "posX": 25,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"59",
+            "variations" : ["59"],
+            "category"  : ["nakki"],
+            "posX": 27,
+            "posY": 13,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"60",
+            "variations" : ["60"],
+            "category"  : ["nakki"],
+            "posX": 25,
+            "posY": 15,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"61",
+            "variations" : ["61"],
+            "category"  : ["nakki"],
+            "posX": 25,
+            "posY": 17,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"62",
+            "variations" : ["62"],
+            "category"  : ["nakki"],
+            "posX": 25,
+            "posY": 19,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        }
+        ,
+        {
+            "name":"63",
+            "variations" : ["63"],
+            "category"  : ["nakki"],
+            "posX": 25,
+            "posY": 21,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+
+        {
+            "name":"A1",
+            "variations" : ["a1"],
+            "category"  : ["akutrum"],
+            "posX": 14,
+            "posY": 14,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"A2",
+            "variations" : ["a2"],
+            "category"  : ["akutrum"],
+            "posX": 12,
+            "posY": 14,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"A3",
+            "variations" : ["a3"],
+            "category"  : ["akutrum"],
+            "posX": 10,
+            "posY": 14,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"A4",
+            "variations" : ["a4"],
+            "category"  : ["akutrum"],
+            "posX": 8,
+            "posY": 14,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":false,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"Yttre väntrum",
+            "variations" : ["yvr",""," "],
+            "category"  : ["Waiting Room"],
+            "posX": 0,
+            "posY": 18,
+            "width": 8,
+            "height":2,
+            "color":"",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : true
+        },
+        {
+            "name":"Ortopedi IVR",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakor"],
+            "posX": 22,
+            "posY": 8,
+            "width": 4,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"ME4 Barn Gyn ÖNH KÄK IVR",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 19,
+            "posY": 2,
+            "width": 2,
+            "height":8,
+            "color":"#FD3EFF",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"Kirurgi IVR",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakki"],
+            "posX": 19,
+            "posY": 15,
+            "width": 6,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"ME1",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakem1"],
+            "posX": 0,
+            "posY": 8,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"Triage",
+            "variations" : ["iv","ivr"],
+            "category"  : ["triage"],
+            "posX": 3,
+            "posY": 10,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"Akutrum",
+            "variations" : ["iv","ivr"],
+            "category"  : ["akutrum"],
+            "posX": 11,
+            "posY": 16,
+            "width": 2,
+            "height":2,
+            "color":"#858585",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+        },
+        {
+            "name":"Medicin Gul Extra",
+            "variations" : ["gtorg","gultor","g15x","53x"],
+            "category"  : ["nakme3"],
+            "posX": 12,
+            "posY": 4,
+            "width": 2,
+            "height":2,
+            "color":"#D8B803",
+            "waitingRoom":false,
+            "bedOutsideRoom":true,
+            "prioritizedCategory" : true
+        },
+        {
+            "name":"Medicin Blå Extra",
+            "variations" : ["bto","btorg"],
+            "category"  : ["nakme2"],
+            "posX": 12,
+            "posY": 7,
+            "width": 2,
+            "height":2,
+            "color":"#0060C1",
+            "waitingRoom":false,
+            "bedOutsideRoom":true,
+            "prioritizedCategory" : true
+
+        },
+        {
+            "name":"Ortopedi Extra",
+            "variations" : ["to"],
+            "category"  : ["nakor"],
+            "posX": 24,
+            "posY": 2,
+            "width": 2,
+            "height":2,
+            "color":"#26AA68",
+            "waitingRoom":false,
+            "bedOutsideRoom":true,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"Kirurgi Extra",
+            "variations" : ["to"],
+            "category"  : ["nakki"],
+            "posX": 19,
+            "posY": 19,
+            "width": 2,
+            "height":2,
+            "color":"#B12323",
+            "waitingRoom":false,
+            "bedOutsideRoom":true,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"Jour Extra",
+            "variations" : ["to"],
+            "category"  : ["nakme4","nakba","nakön","nakkk","nakbup"],
+            "posX": 19,
+            "posY": 8,
+            "width": 2,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":false,
+            "bedOutsideRoom":true,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"ME3 IVR",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakme3"],
+            "posX": 8,
+            "posY": 2,
+            "width": 6,
+            "height":2,
+            "color":"",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        },
+        {
+            "name":"ME2 IVR",
+            "variations" : ["iv","ivr"],
+            "category"  : ["nakme2"],
+            "posX": 8,
+            "posY": 9,
+            "width": 6,
+            "height":2,
+            "color":"#FD3EFF",
+            "waitingRoom":true,
+            "bedOutsideRoom":false,
+            "prioritizedCategory" : false
+
+        }
+        ]
+    }
+    
+    

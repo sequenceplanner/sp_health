@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "innerWaitingRoom",
+        "displayName": "innerWaitingRoom",
+        "guid": "InnerWaitingRoom",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "This widget is for VGR inner waiting rooms at emergency departments.",
+        "supportUrl": "Goolge.com",
+        "gitHubUrl": "https://github.com/Tbobbe/EENX15"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Carolina Larsson",
+        "email": "carolinalarsson97@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/waiting-hall(5).png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

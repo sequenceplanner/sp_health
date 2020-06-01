@@ -1,0 +1,88 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Avdelningar",
+            "name": "column",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Värden",
+            "name": "value",
+            "kind": "GroupingOrMeasure"
+        }
+    ],
+    "objects": {
+            "patientView": {
+                "displayName": "Patientvy",
+                "properties": {
+                    "hideBluePatients": {
+                        "displayName": "Summera blå och gröna patienter",
+                        "description": "Aktivera om blå patienter ska visas som grön prioritet.",
+                        "type": {
+                            "bool": true
+                        }
+                    }, 
+                    "showFrequencies": {
+                        "displayName": "Visa frekvenser",
+                        "description": "Aktivera för att visa förändringshastigheten på opåttitade, påtittade och klara patienter.",
+                        "type": {
+                            "bool": true
+                        }
+                    }, 
+                    "minimizeEmptyDepts": {
+                        "displayName": "Minimera tomma avdelningar",
+                        "description": "Aktivera för att automatiskt minimera tomma avdelningar ovanför tabellen.",
+                        "type": {
+                            "bool": true
+                        }
+                    }, 
+                    "fontSizeTitle": {
+                        "displayName": "Textstorlek på rubriker",
+                        "description": "Välj ett värde för att justera storleken på rubriken.",
+                        "type": {
+                            "numeric": true
+                        }
+                    },
+                    "fontSizeTotalCount": {
+                        "displayName": "Textstorlek på totalsiffra",
+                        "description": "Välj ett värde för att justera storleken på siffran som summerar antal patienter på varje avdelning.",
+                        "type": {
+                            "numeric": true
+                        }
+                    },
+                    "fontSizeFigures": {
+                        "displayName": "Textstorlek på tabellvärden",
+                        "description": "Välj ett värde för att justera storleken på de numeriska värdena i tabellen.",
+                        "type": {
+                            "numeric": true
+                        }
+                    }
+                }
+            }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                { 
+                    "column": { "min": 1, "max": 1 }
+                }
+            ],
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "column"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "value"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "clockWidget",
+        "displayName": "clockWidget",
+        "guid": "clockWidget",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "This widget consists of a clock",
+        "supportUrl": "google.com",
+        "gitHubUrl": "https://github.com/Tbobbe/EENX15"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Carolina Larsson",
+        "email": "carolinalarsson97@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/clock.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

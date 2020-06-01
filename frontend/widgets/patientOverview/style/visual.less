@@ -1,0 +1,275 @@
+
+/* COLOR PALETTE */ 
+@color-red: #C54434; 
+@color-light-red: rgba(221, 145, 137, 0.6); 
+
+@color-orange: #EA8A3E; 
+@color-light-orange: rgba(242, 188, 143, 0.6); 
+
+@color-yellow: #E8CE54; 
+@color-light-yellow: rgb(241, 226, 157, 0.6); 
+
+@color-green: #7EAA55; 
+@color-light-green: rgb(180, 205, 156, 0.6); 
+
+@color-blue: #4871D9; 
+@color-light-blue: rgb(150, 173, 233, 0.6); 
+
+@color-grey: #797979; 
+@color-light-grey: rgb(235, 235, 235, 0.6); 
+
+/* BASICS */ 
+body {
+    font-family: 'Helvetica'; 
+    font-weight: 400; 
+}
+
+.error {
+    font-size: 1.2em;
+    color: red; 
+}
+
+/* STYLING OF TABLE */ 
+
+table {
+    border-spacing: 0.6em 0.3em;
+    display: block; 
+}
+
+tbody {
+    border-collapse: separate;
+}
+
+tbody td {
+    padding: 0.5em; 
+}
+
+.thead, 
+.thead .sum {
+    margin-top: 0.3em; 
+    text-transform: uppercase;
+    min-width: 50px;
+}
+
+.thead .title {
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.thead {
+    background-color: @color-light-grey; 
+    color: black; 
+    padding: 1em 0.5em; 
+}
+
+.thead tr {
+    width: 100%; 
+    display: block; 
+}
+
+.sum {
+    background-color: @color-grey; 
+    color: white; 
+}
+
+.trauma {
+    margin: 0.5em 0.3em 0.5em 0.5em;
+}
+
+.stream {
+    margin: 0.5em 0em 0.5em 0.3em; 
+}
+
+.trauma,
+.stream {
+    float: left;
+    background-color: @color-light-grey; 
+    text-transform: uppercase;
+}
+
+.trauma p,
+.stream p {
+    font-weight: 500; 
+}
+
+.trauma .title,
+.stream .title {
+    margin: 0.5em 0.5em 0em 0.5em; 
+    font-size: 1.5em; 
+}
+
+.figure {
+    margin-top: 0em; 
+    margin-bottom: 0.3em; 
+    text-align: center; 
+}
+
+td {
+    text-align: center; 
+    font-weight: 500; 
+}
+
+.tbody td {
+    min-height: 150px; 
+}
+
+.thead td {
+    display: inline-block; 
+    font-weight: 500; 
+}
+
+.red td {
+    background-color: @color-light-red; 
+}
+
+.red .sum {
+    background-color: @color-red; 
+}
+
+.orange td {
+    background-color: @color-light-orange; 
+}
+
+.orange .sum {
+    background-color: @color-orange; 
+}
+
+.yellow .sum {
+    background-color: @color-yellow; 
+}
+
+.yellow td {
+    background-color: @color-light-yellow; 
+}
+
+.green .sum {
+    background-color: @color-green; 
+}
+
+.green td {
+    background-color: @color-light-green; 
+}
+
+.blue .sum {
+    background-color: @color-blue; 
+}
+
+.blue td {
+    background-color: @color-light-blue; 
+}
+
+.grey .sum {
+    background-color: @color-grey; 
+}
+
+.grey td {
+    background-color: @color-light-grey; 
+}
+
+.red .sum, 
+.orange .sum, 
+.yellow .sum,
+.green .sum, 
+.grey .sum, 
+.blue .sum {
+    color: white; 
+}
+
+.text-color-grey {
+    color: grey; 
+}
+
+.text-color-black {
+    color: black; 
+}
+
+.unattended,
+.attended,
+.finished {
+    font-weight: 400; 
+}
+
+.unattended::before,
+.attended::before,
+.finished::before {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    content: '';
+    background-position-y: 3px;
+    margin-right: 0.3em;
+}
+
+.unattended::before {
+    background-image: url('../assets/unseen-black.svg'); 
+}
+
+.attended::before {
+    background-image: url('../assets/seen-black.svg'); 
+}
+
+.finished::before {
+    background-image: url('../assets/done-black.svg'); 
+}
+
+.finished::after, 
+.unattended::after,
+.attended::after {
+    content: attr(frequency); 
+    font-size: 0.7em; 
+    position: relative; 
+    background-position-y: -5px; 
+    margin-left: 0.2em; 
+}
+
+.sum .unattended::before {
+    background-image: url('../assets/unseen-white.svg'); 
+}
+
+.sum .attended::before {
+    background-image: url('../assets/seen-white.svg'); 
+}
+
+.sum .finished::before {
+    background-image: url('../assets/done-white.svg'); 
+}
+
+.emptyCard::before{
+    background-image: url('../assets/zero-patients.svg'); 
+    width: 45px;
+    height: 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    content: '';
+    margin-right: 0.3em;
+}
+
+.emptyCard,
+.otherFieldCard {
+    padding: 0.5em; 
+    margin-right: 0.5em; 
+    margin-top: 0.5em; 
+    text-transform: uppercase; 
+    font-weight: 500; 
+    display: inline-block; 
+}
+
+.emptyCard {
+    background-color: @color-light-grey; 
+}
+
+.otherFieldCard {
+    background-color: @color-light-grey; 
+    color: black; 
+    padding: 20px; 
+}
+
+.emptyCards,
+.nonDepartments {
+    width: 100%; 
+    padding: 0em 0.5em 0.5em 0.5em; 
+    display: block; 
+}

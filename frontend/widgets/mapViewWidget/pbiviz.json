@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "mapViewWidget",
+        "displayName": "Kartvy",
+        "guid": "mapViewWidget28may2020",
+        "visualClassName": "Visual",
+        "version": "1.0.8",
+        "description": "Ett verktyg för en intelligent akutmottagning.",
+        "supportUrl": "https://github.com/Tbobbe/EENX15",
+        "gitHubUrl": "https://github.com/Tbobbe/EENX15"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Alexander Örnbratt",
+        "email": "ornbratt@student.chalmers.se"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

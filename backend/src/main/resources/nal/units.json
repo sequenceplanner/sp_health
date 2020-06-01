@@ -1,0 +1,36 @@
+{
+  "departments": [
+    {"name": "NAKME1",
+    "commonName": "ME1"},
+    {"name": "NAKME2",
+      "commonName": "ME2"},
+    {"name": "NAKME3",
+      "commonName": "ME3"},
+    {"name": "NAKME4",
+      "commonName": "ME4"},
+    {"name": "NAKKI",
+      "commonName": "KI"},
+    {"name": "NAKOR",
+      "commonName": "OR"},
+    {"name": "NAKBA",
+      "commonName": "LILA"},
+    {"name": "NAKÖN",
+      "commonName": "LILA"},
+    {"name": "NAKKK",
+      "commonName": "LILA"},
+    {"name": "NAKBUP",
+      "commonName": "LILA"},
+    {"name": "NAKM",
+      "commonName": "NAKM"}
+  ],
+  "teams": [
+    {"name":  "stream",
+      "commonName": "Stream",
+      "reasonsToVisit": [{"reason": "AKP"}]
+    },{
+      "name": "process",
+      "commonName": "Trauma",
+      "reasonsToVisit": [{"reason": "All"}, {"reason": "TRAUMAN1"}, {"reason": "TRAUMAN2"}, {"reason": "TRAUMAN3"}]
+    }
+  ]
+}

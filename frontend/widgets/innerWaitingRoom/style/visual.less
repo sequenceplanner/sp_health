@@ -1,0 +1,66 @@
+// Re-used colors
+@color-grey: #979797;
+
+// New colors, with inspiration from the mapView
+@color-violet: #ec98ed;
+@color-red:#de6464;
+@color-green: #5ed198;
+@color-blue: #4b94de;
+@color-yellow: #d6c358;
+
+body {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    background-color: @color-green;
+}
+
+// Title of page
+h1 {
+    font-size: larger;
+    text-transform: uppercase;
+    margin-left: 3%;
+    color: black;
+    font-weight: 400;
+    z-index: 10;
+}
+
+//Observation text
+h2 {
+    position: absolute;
+    margin-top: 9%;
+    font-size: small;
+    margin-left: 3%;
+    color: white;
+    font-weight: 300;
+    z-index: 10;
+}
+
+table {
+    width: 70%;
+    height: 48%;
+    font-size: medium;
+    font-weight: 200;
+    margin-top: 7%;
+    margin-left: 6%;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 1em;
+    z-index: 10;
+}
+
+// Clock 
+h3 {
+    font-size: 80px;
+    font-weight: 600;
+    position: absolute;
+    top: -7.5%;
+    right: 3%;
+    z-index: 10;
+}
+
+svg {
+    position: aboslute;
+    background-color: @color-yellow;
+    opacity: 0.5;
+    z-index: -1;
+}
